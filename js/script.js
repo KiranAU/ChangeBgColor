@@ -9,5 +9,3 @@ function changeColor() {
     let random = Math.floor(Math.random() * colors.length);
     bodyBcg.style.backgroundColor = colors[random];
 }
-
-changColor();
